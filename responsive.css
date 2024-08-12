@@ -1,0 +1,124 @@
+@media screen and (max-width:770px){
+    .navbar{
+        width: 90%;
+
+    }
+    .logo h2 a{
+ font-size: 20px;
+    }
+    #menu_bar{
+        display: grid;
+        color: #fff;
+        position: absolute;
+        right: 5%;
+        top: 20%;
+        border: 1px solid #fff;
+        width: 30px;
+        height: 30px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 2px;
+        cursor: pointer;
+
+    }
+    .nav_links{
+        flex-direction: column;
+        position: absolute;
+        background:#24292d;
+        width: 100%;
+        left: 0;
+        padding: 0;
+    }
+    .nav_links li a{
+        border-bottom: 1px solid #fff;
+        display: block;
+        border-radius: 0;
+        padding: 10px 0;
+        margin: 0 20px;
+    }
+    .nav_links li:last-child a{
+        border-bottom: none;
+    }
+    .inner_anasayfa{
+      
+        flex: wrap;
+        flex-direction: column-reverse;
+    }
+    .child_anasayfa{
+        flex-basis: 100%;
+        text-align: center;
+    }
+  
+    .social-media{
+       display: flex;
+       align-items: center;
+       margin-left: 180px;
+       margin-bottom: 25px;
+    }
+    #about-text{
+        font-size: 16px;    
+    }
+    
+    .innersoftware{
+        display: grid;
+     grid-template-columns: 1fr 1fr;
+      column-gap: 5px;
+     
+     
+    }
+    #yazilim_title{
+        /* border: 5px solid red; */
+        margin-top: 100px;
+        
+    }
+
+    .container-2{
+
+height: 500px;
+padding-right: 15px;
+    }
+    .certificas{
+        display: grid;
+        grid-template-columns: 1fr 1fr  1fr;  
+    }
+    .buttons{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+      width: 100px;
+    }
+
+
+    
+  
+}
+
+
+@media screen and (max-width:360px){
+    .navbar{
+        width: 90%;
+
+    }
+    .logo h2 a{
+ font-size: 20px;
+ text-align: center;
+    }
+}
+
+  
+   
+
+    
+
+
+
+ 
+
+
+
+
+
+
+   
+   
+    
